@@ -13,7 +13,7 @@ export interface LessonItem {
 export interface Lesson {
   id: string;
   title: string;
-  type: 'hiragana' | 'katakana' | 'kanji' | 'grammar' | 'vocabulary';
+  type: 'hiragana' | 'katakana' | 'kanji' | 'grammar' | 'vocabulary' | 'pronunciation';
   difficulty: 1 | 2 | 3 | 4 | 5;
   items: LessonItem[];
   estimatedTime: number;
